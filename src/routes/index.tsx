@@ -455,7 +455,9 @@ function BookingCTA() {
             <div className="font-display text-4xl mt-2 group-hover:text-gradient-jet">{PHONE}</div>
             <div className="text-muted-foreground text-sm mt-3">Sat – Thu · 8am – 11pm</div>
           </a>
-          <a href={`mailto:${EMAIL}`} className="group p-8 rounded-3xl border border-jet-gold/40 bg-card hover:bg-jet-gold/5 transition text-left">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Jetcarwashservice@gmail.com"
+target="_blank"
+rel="noreferrer" className="group p-8 rounded-3xl border border-jet-gold/40 bg-card hover:bg-jet-gold/5 transition text-left">
             <div className="font-sans uppercase tracking-widest text-xs text-jet-gold">Email us</div>
             <div className="font-display text-2xl mt-2 break-all group-hover:text-gradient-gold">
               {EMAIL}
@@ -493,7 +495,9 @@ function Footer() {
   href={WHATSAPP}
   target="_blank"
   rel="noreferrer" className="hover:text-jet-cyan">{PHONE}</a>
-          <a href={`mailto:${EMAIL}`} className="hover:text-jet-gold">Email</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Jetcarwashservice@gmail.com"
+target="_blank"
+rel="noreferrer" className="hover:text-jet-gold">Email</a>
         </div>
       </div>
     </footer>
