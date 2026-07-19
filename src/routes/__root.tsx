@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Jet Car Wash — Powerful Clean. Premium Experience. Dubai, UAE" },
+      { name: "description", content: "Jet Car Wash delivers jet-level exterior wash and complete interior detailing across the UAE. Book Jet Wash from AED 85 or Jet Shine from AED 125." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Jet Car Wash — Powerful Clean. Premium Experience. Dubai, UAE" },
+      { property: "og:description", content: "Jet Car Wash delivers jet-level exterior wash and complete interior detailing across the UAE. Book Jet Wash from AED 85 or Jet Shine from AED 125." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Jet Car Wash — Powerful Clean. Premium Experience. Dubai, UAE" },
+      { name: "twitter:description", content: "Jet Car Wash delivers jet-level exterior wash and complete interior detailing across the UAE. Book Jet Wash from AED 85 or Jet Shine from AED 125." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/374a1bcb-2adf-4531-8a97-00d85f7c9cfe/id-preview-74cd46d5--4e8e29b0-eda7-457a-b557-08f30a5dc5f3.lovable.app-1784456631295.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/374a1bcb-2adf-4531-8a97-00d85f7c9cfe/id-preview-74cd46d5--4e8e29b0-eda7-457a-b557-08f30a5dc5f3.lovable.app-1784456631295.png" },
     ],
     links: [
       {

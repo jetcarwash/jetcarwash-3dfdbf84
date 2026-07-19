@@ -14,10 +14,10 @@ export const Route = createFileRoute("/")({
         content:
           "Jet Car Wash delivers jet-level exterior wash and complete interior detailing across the UAE. Book Jet Wash from AED 85 or Jet Shine from AED 125.",
       },
-      { property: "og:title", content: "Jet Car Wash — Powerful Clean. Premium Experience." },
+      { property: "og:title", content: "Jet Car Wash — Powerful Clean. Premium Experience. Dubai, UAE" },
       {
         property: "og:description",
-        content: "Eco-friendly, on-time car wash and detailing across the UAE. Book in seconds.",
+        content: "Jet Car Wash delivers jet-level exterior wash and complete interior detailing across the UAE. Book Jet Wash from AED 85 or Jet Shine from AED 125.",
       },
       { property: "og:type", content: "website" },
       { property: "og:image", content: logoAsset.url },
