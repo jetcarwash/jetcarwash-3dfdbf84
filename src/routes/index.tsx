@@ -136,7 +136,10 @@ function Hero() {
               See the packages →
             </a>
             <a
-              href={PHONE_HREF}
+            
+  href={WHATSAPP}
+  target="_blank"
+  rel="noreferrer"
               className="rounded-none border border-jet-silver/30 px-8 py-4 font-sans uppercase tracking-widest text-sm font-bold text-jet-silver hover:bg-jet-silver/5 transition"
             >
               Call {PHONE}
@@ -444,8 +447,11 @@ function BookingCTA() {
         </p>
 
         <div className="mt-12 grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
-          <a href={PHONE_HREF} className="group p-8 rounded-3xl border border-jet-cyan/40 bg-card hover:bg-jet-cyan/5 transition text-left">
-            <div className="font-sans uppercase tracking-widest text-xs text-jet-cyan">Call us</div>
+          <a 
+  href={WHATSAPP}
+  target="_blank"
+  rel="noreferrer" className="group p-8 rounded-3xl border border-jet-cyan/40 bg-card hover:bg-jet-cyan/5 transition text-left">
+            <div className="font-sans uppercase tracking-widest text-xs text-jet-cyan">WhatsApp Us</div>
             <div className="font-display text-4xl mt-2 group-hover:text-gradient-jet">{PHONE}</div>
             <div className="text-muted-foreground text-sm mt-3">Sat – Thu · 8am – 11pm</div>
           </a>
@@ -483,7 +489,10 @@ function Footer() {
           </div>
         </div>
         <div className="flex items-center gap-6 font-sans uppercase text-xs tracking-widest text-muted-foreground">
-          <a href={PHONE_HREF} className="hover:text-jet-cyan">{PHONE}</a>
+          <a
+  href={WHATSAPP}
+  target="_blank"
+  rel="noreferrer" className="hover:text-jet-cyan">{PHONE}</a>
           <a href={`mailto:${EMAIL}`} className="hover:text-jet-gold">Email</a>
         </div>
       </div>
