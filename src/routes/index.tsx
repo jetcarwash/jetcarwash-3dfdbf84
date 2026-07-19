@@ -37,7 +37,7 @@ export const Route = createFileRoute("/")({
 const PHONE = "+971 52 490 7205";
 const PHONE_HREF = "tel:+971524907205";
 const EMAIL = "Jetcarwashservice@gmail.com";
-const WHATSAPP = "https://wa.me/971524907205";
+const WHATSAPP = "https://wa.me/971524907205?text=Hi%20Jet%20Car%20Wash!%20%F0%9F%91%8B%0A%0AI'd%20like%20to%20book%20a%20premium%20car%20wash.%0A%0A%F0%9F%9A%97%20Vehicle%3A%0A%F0%9F%93%8D%20Location%3A%0A%F0%9F%93%85%20Preferred%20Date%3A%0A%E2%8F%B0%20Preferred%20Time%3A%0A%0APlease%20confirm%20my%20booking.%20Thank%20you!";
 
 function JetLanding() {
   return (
