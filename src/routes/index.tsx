@@ -70,7 +70,7 @@ function Nav() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logoAsset.url} alt="Jet Car Wash" className="h-12 w-auto" width={96} height={48} />
+          <img src={logoAsset.url} alt="Jet Car Wash" className="h-20 w-auto drop-shadow-[0_0_18px_rgba(59,130,246,0.45)]" width={160} height={80} />
         </a>
         <nav className="hidden md:flex items-center gap-8 font-sans uppercase text-sm tracking-widest text-muted-foreground">
           <a href="#services" className="hover:text-jet-cyan transition">Services</a>
