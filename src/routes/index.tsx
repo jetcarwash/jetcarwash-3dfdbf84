@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import logoAsset from "@/assets/jet-logo.png.asset.json";
+import logo from "@/assets/Jet Car Wash.png";
 import heroCar from "@/assets/hero-car.jpg";
 import detailPaint from "@/assets/detail-paint.jpg";
 import detailInterior from "@/assets/detail-interior.jpg";
@@ -20,9 +20,9 @@ export const Route = createFileRoute("/")({
         content: "Jet Car Wash delivers jet-level exterior wash and complete interior detailing across the UAE. Book Jet Wash from AED 85 or Jet Shine from AED 125.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: logoAsset.url },
+      { property: "og:image", content: logo },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: logoAsset.url },
+      { name: "twitter:image", content: logo },
     ],
     links: [
       {
@@ -70,7 +70,13 @@ function Nav() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logoAsset.url} alt="Jet Car Wash" className="h-20 w-auto drop-shadow-[0_0_18px_rgba(59,130,246,0.45)]" width={160} height={80} />
+          <img
+  src={logo}
+  alt="Jet Car Wash"
+  className="h-20 w-auto drop-shadow-[0_0_18px_rgba(59,130,246,0.45)]"
+  width={160}
+  height={80}
+/>
         </a>
         <nav className="hidden md:flex items-center gap-8 font-sans uppercase text-sm tracking-widest text-muted-foreground">
           <a href="#services" className="hover:text-jet-cyan transition">Services</a>
@@ -471,7 +477,7 @@ function Footer() {
     <footer className="border-t border-border py-12 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-4">
-          <img src={logoAsset.url} alt="Jet Car Wash" className="h-10 w-auto" width={80} height={40} />
+          <img src={logo} alt="Jet Car Wash" className="h-10 w-auto" width={80} height={40} />
           <div className="font-sans uppercase text-xs tracking-widest text-muted-foreground">
             © {new Date().getFullYear()} Jet Car Wash · UAE
           </div>
